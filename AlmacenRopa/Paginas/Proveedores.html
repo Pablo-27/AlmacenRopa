@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manejo Proveedores</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link href="Estilos/all.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">MANJEO DE PROVEEDORES</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form id="frmRegistroCliente">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtDocumento">Nit</label>
+                                            <input type="text" class="form-control" id="txtNit" placeholder="Nit">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtNombre">Nombre</label>
+                                            <input type="text" class="form-control" id="txtNombre" placeholder="Nombre">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Productos</label>
+                                            <select id="cboProductos" class="form-control select2" style="width: 100%;">
+                                                <option selected="selected" value="Camisas">Camisas</option>
+                                                <option value="Jeans">Jeans</option>
+                                                <option value="Zapatos">Zapatos</option>
+                                                <option value="Buzos">Buzos</option>
+                                                <option value="Gorras">Gorras</option>
+                                                <option value="Calcetines">Calcetines</option>
+                                                <option value="Pantalonetas">Pantalonetas</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtTelefono">Telefono</label>
+                                            <input type="text" class="form-control" id="txtTelefono" placeholder="Telefono">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-txtCorreo">
+                                            <label for="txtCorreo">Correo eléctronico</label>
+                                            <input type="text" class="form-control" id="txtCorreo" placeholder="Correo eléctronico">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtSitioWeb">Sitio Web</label>
+                                            <input type="text" class="form-control" id="txtSitioWeb" placeholder="Sitio Web">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <button type="button" id="btnRegistrar" class="btn-block btn-lg btn-primary">Registrar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button" id="btnConsultar" class="btn-block btn-lg btn-primary">Consultar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button" id="btnActualizar" class="btn-block btn-lg btn-primary">Actualizar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button" id="btnEliminar" class="btn-block btn-lg btn-primary">Eliminar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <div id="dvMensaje" class=""></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Script/Habilitacion.js"></script>
+    <!-- /.card -->
+</body>
+</html>

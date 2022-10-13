@@ -134,7 +134,7 @@
     <Content Include="Paginas\Estilos\adminlte.min.css" />
     <Content Include="Paginas\Estilos\all.min.css" />
     <Content Include="Paginas\Estilos\styles.css" />
-    <Content Include="Paginas\Habilitacion.html" />
+    <Content Include="Paginas\Proveedores.html" />
     <Content Include="Scripts\adminlte.js" />
     <Content Include="Scripts\adminlte.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
